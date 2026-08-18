@@ -1,0 +1,8 @@
+{
+  "name": "Vania Ribeiro Running Coach",
+  "description": "Assessoria e consultoria de corrida de rua em Vinhedo - SP com Vania Ribeiro e Assistente de Treino com IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

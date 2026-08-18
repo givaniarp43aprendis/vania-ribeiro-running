@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anybody', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  .font-mono-tag {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(17, 28, 45, 0.78) 0%, rgba(17, 28, 45, 0.45) 50%, rgba(17, 28, 45, 0.85) 100%);
+}
+
+@keyframes pulseSlow {
+  0%, 100% { transform: scale(1.02); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 16s ease-in-out infinite alternate;
+}
